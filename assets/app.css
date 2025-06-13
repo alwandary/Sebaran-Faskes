@@ -1,0 +1,20 @@
+ #map {
+     height: 480px;
+ }
+
+ /* Popup fade-in animation */
+ .leaflet-popup-content-wrapper {
+     animation: fadeIn 0.35s ease forwards;
+     opacity: 0;
+ }
+
+ .leaflet-popup-content-wrapper.leaflet-popup-open {
+     opacity: 1;
+ }
+
+ @keyframes fadeIn {
+     to {
+         opacity: 1;
+     }
+ }
+
